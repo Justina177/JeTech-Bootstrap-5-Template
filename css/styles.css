@@ -32,3 +32,17 @@ section {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar .nav-link.active {
+    color: #E93B81;
+}
