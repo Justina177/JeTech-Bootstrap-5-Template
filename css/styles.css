@@ -256,5 +256,19 @@ section {
     margin: 24px auto;
     font-style: italic;
  }
+
+ #clients img {
+   height: 35px;
+}
+
+form .form-control {
+   border-radius: 0;
+}
+
+form .form-control:focus {
+   box-shadow: none;
+   border-color: #E93B81;
+}
+
  
  
